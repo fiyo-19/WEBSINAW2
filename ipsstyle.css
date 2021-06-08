@@ -1,0 +1,230 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 20px;
+    padding: 0px;
+    font-family: 'Open Sans' ,sans-serif;
+    background-color: #FEC8D8;
+    
+}
+
+/*  logo & deskripsi atas */
+
+.navlogo{
+    width: 95%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #E0BBE4;
+    border: solid 0px;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: blue;
+    margin-left: 5%;
+}
+
+.menu{
+    float: right;
+    margin-right: 5%;
+}
+
+.desweb1{
+    border: solid 0px;
+    top: 20px;
+    left: 35px;
+    position: absolute;
+}
+.desweb{
+    font-size: 20px;
+    float: left;
+    border: solid 0px;
+    top: 100px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+
+/* login */
+
+a.login{
+    background: blue;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.login:hover{
+    background: yellow;
+    text-decoration: none;
+}
+
+a.klik{
+    background: greenyellow;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px 15px 10px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    position:relative;
+}
+
+a.klik:hover{
+    background: brown;
+    text-decoration: none;
+}
+
+/* style navigasi */
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+    background: #E0BBE4;
+    z-index: 1;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline ;
+}
+
+/* dropdown */
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+section{
+    display: flex;
+    margin-bottom: 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* konten */
+
+.kolomipsl .desc{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: black;
+    position: relative;
+}
+
+.kolomipsl{
+    margin: auto;
+    margin-right: 20px;
+    border: 0px;
+    width: 50%;
+    padding: 5px;
+    height: 300px;
+    border: solid 0px;
+    border-radius: 30px;
+    background-color:bisque;
+    overflow: auto;
+}
+
+
+.vidips1{
+    border-radius: 50px;
+    height: 300px;
+    width: 500px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    border: solid 2px;
+}
+
+p{
+    margin: 5px 2px 5px 2px;
+    padding: 5px 0px 5px 0px;
+}
+
+/* footer */
+
+#copyright{
+    text-align: center;
+    font-size: 90%;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin-top: 10px;
+    border:  1px;
+    border-color:  gainsboro;
+    background: whitesmoke;
+    border-radius: 5px;
+}

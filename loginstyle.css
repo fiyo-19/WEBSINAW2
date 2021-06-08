@@ -1,0 +1,45 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 20px;
+    padding: 0px;
+    font-family: 'Open Sans' ,sans-serif;
+    background-color:thistle;
+}
+
+.register{
+    border: solid 0px;
+    font-size: 15px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.input{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+    overflow:hidden;
+    width: 80%;
+}
+
+.form{
+    background:tan;
+    border: solid 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.loginbutton{
+    margin: 5% 0% 5% 40%;
+    background-color: none;
+    font-size: 20px;
+    font-family: comic sans ms;
+    border-radius: 10px;
+    border: transparent;
+}
